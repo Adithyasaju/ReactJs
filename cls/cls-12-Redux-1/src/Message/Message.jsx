@@ -5,7 +5,7 @@ import {useDispatch,useSelector} from 'react-redux'
 const Message =()=>{
     let dispatch = useDispatch()
     let message=useSelector((state)=>{
-        return state.message;
+        return state;
     })
     let gmHandler=()=>{
         dispatch(gmAction())
