@@ -8,7 +8,7 @@ const App=()=>{
         <div>
             <Provider store={store}>
             <h2>App Component</h2>
-            <Message/>
+            
             <Product/>
             </Provider>
         </div>
