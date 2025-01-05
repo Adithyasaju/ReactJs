@@ -17,7 +17,7 @@ const CreateProduct=()=>{
                 setProduct({...product,image:reader.result })
             }else{}
         })
-    } 
+    }  
     let submitHandler=(event)=>{
         event.preventDefault();
         Axios.post('http://127.0.0.1:5000/api/products',product)

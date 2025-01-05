@@ -5,6 +5,7 @@ import Home from "./components/ProductApp/Home";
 import Products from "./components/ProductApp/Products";
 import Admin from "./components/ProductApp/Admin";
 import CreateProduct from "./components/ProductApp/CreateProduct";
+import UpdateProduct from "./components/ProductApp/UpdateProduct";
 
 
 const  App=()=>{
@@ -18,8 +19,7 @@ const  App=()=>{
                 <Route path="/products" element={<Products/>}/>
                 <Route path="/admin" element={<Admin/>}/>
                 <Route path="/create" element={<CreateProduct/>}/>
-
-
+                <Route path="/admin/update/:id" element={<UpdateProduct/>}/>
                 </Routes>
             </Router>
         </div>
